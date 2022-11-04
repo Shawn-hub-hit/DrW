@@ -1,5 +1,5 @@
 # DrW
-### Code for 'Deep Relevance with Weights Learning for Spatial Keyword Queries' paper (SIGMOD 2023)
+### Code for 'Effectiveness Perspectives and a Deep Relevance Model for Spatial Keyword Queries' paper (SIGMOD 2023)
 
 DrW is a deep relevance with weights learning framework for spatial keyword queries. It is featured with two novel ideas: First, we propose a neural network architecture to learn the textual relevance matching over the local interaction between the query and geo-textual objects. Second, we develop a learning based method to learn the query-dependent weight for textual relevance and spatial proximity.
 
@@ -46,3 +46,15 @@ Validation: normalized_discounted_cumulative_gain_3: 0.5944 - normalized_discoun
 ```
 
 This can reproduce NDCG@3, NDCG@5, and MRR of our model on Beijing dataset.
+
+### Citation Information
+
+```
+@inproceedings{DrW2023,
+  author    = {Shang Liu, Gao Cong, Kaiyu Feng, Wanli Gu, Fuzheng Zhang},
+  title     = {Effectiveness Perspectives and a Deep Relevance Model for Spatial Keyword Queries},
+  booktitle = {{SIGMOD}},
+  pages     = {},
+  year      = {2023}
+}
+```
