@@ -50,11 +50,14 @@ This can reproduce NDCG@3, NDCG@5, and MRR of our model on Beijing dataset.
 ### Citation Information
 
 ```
-@inproceedings{DrW2023,
-  author    = {Shang Liu, Gao Cong, Kaiyu Feng, Wanli Gu, Fuzheng Zhang},
-  title     = {Effectiveness Perspectives and a Deep Relevance Model for Spatial Keyword Queries},
-  booktitle = {SIGMOD},
-  pages     = {},
-  year      = {2023}
+@article{liu2023effectiveness,
+  title={Effectiveness Perspectives and a Deep Relevance Model for Spatial Keyword Queries},
+  author={Liu, Shang and Cong, Gao and Feng, Kaiyu and Gu, Wanli and Zhang, Fuzheng},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={1},
+  number={1},
+  pages={1--25},
+  year={2023},
+  publisher={ACM New York, NY, USA}
 }
 ```
